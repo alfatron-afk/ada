@@ -47,3 +47,14 @@ scanf("%d",&p[i]);
 printf("Enter the capacity of Knapsack: "); 
 scanf("%d",&m);
 knapsack_DP();
+Sample Input and Output:
+Enter the no. of items: 4
+Enter the weights of n items: 7 3 4 5
+Enter the prices of n items: 42 12 40 25 
+Enter the capacity of Knapsack: 10
+0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 42 42 42 0
+0 0 0 12 12 12 12 42 42 42 0
+0 0 0 12 40 40 40 52 52 52 0
+0 0 0 12 40 40 40 52 52 65 65
+Items included are: 4 3
