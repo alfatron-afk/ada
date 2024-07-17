@@ -50,3 +50,12 @@ void main() {
     }
     printf("\nMinimum cost = %d\n", mincost);
 }
+
+output:
+enter number of nodes:4
+enter the cost matrix:
+999 1 5 2
+1 999 999 999
+5 999 999 3
+2 999 3 999
+enter the root node : 1
