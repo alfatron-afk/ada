@@ -23,3 +23,14 @@ void main() {
         printf("\n");
     }
 }
+Sample Input and Output:
+Enter no. of Vertices: 4 Enter 
+the adjacency matrix0 1 0 0
+0 0 0 1
+0 0 0 0
+1 0 1 0
+Transitive closure of the given graph is
+1 1 1 1
+1 1 1 1
+0 0 0 0
+1 1 1 1
