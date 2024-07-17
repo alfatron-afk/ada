@@ -26,3 +26,12 @@ void main() {
     while (top != -1)
         printf("%d ", stack[top--]);
 }
+Sample Input and Output:
+Enter no. of Vertices: 5 
+Enter the cost matrix
+0 1 1 0 0
+0 0 0 1 1
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+Topological ordering is:0 1 2 3 4
