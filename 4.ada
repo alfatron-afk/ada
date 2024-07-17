@@ -69,3 +69,17 @@ int main() {
     dijkstra(G, n, u);
     return 0;
 }
+Sample Input and Output:
+Enter the no.of vertices:5 
+Enter the cost matrix
+0 3 1 999 999
+3 0 7 5 1
+1 7 0 2 999
+999 5 2 0 7
+999 1 999 7 0
+Enter the source vertex:0
+the shortest distance is...Cost from 0 to 0 is 0 
+Cost from 0 to 1 is 3
+Cost from 0 to 2 is 1
+Cost from 0 to 3 is 3
+Cost from 0 to 4 is 4
